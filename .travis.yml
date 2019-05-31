@@ -26,8 +26,3 @@ jobs:
       osx_image: xcode10.2
       name: Unit Tests
       script: fastlane ios tests
-    - stage: Compatibility
-      os: osx
-      osx_image: xcode10.2
-      name: DependencyManager compatibility
-      script: fastlane ios compatibilityTests
