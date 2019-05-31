@@ -1,0 +1,7 @@
+# DashedView document generator jazzy settings
+
+copyright: Copyright 2019 Maciej Gad
+author: Maciej Gad
+xcodebuild_arguments: [-target, DashedView-iOS]
+clean: true
+output: ./Documentation
